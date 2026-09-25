@@ -55,4 +55,13 @@ public class AlunoService {
         return aluno;
     }
 
+    public void excluir(Long id){
+        Aluno aluno = repository.buscarPorId(id);
+        if(aluno == null){
+            System.out.println("Aluno não encontrado!");
+            return;
+        }
+        repository.excluir(id);
+    }
+
 }
