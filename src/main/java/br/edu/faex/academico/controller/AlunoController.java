@@ -27,9 +27,12 @@ public class AlunoController {
         service.excluir(id);
     }
 
+<<<<<<< HEAD
     public void atualizar(Aluno alunoEditado){
         service.atualizar(alunoEditado);
     }
 
 
+=======
+>>>>>>> 4c093b153a6efc575d211b106390c107ba535047
 }

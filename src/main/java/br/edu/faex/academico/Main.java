@@ -39,6 +39,7 @@ public class Main {
             System.out.println("Aluno não encontrado.");
         }
 
+<<<<<<< HEAD
         // ATUALIZAR
         Aluno alunoEditado = new Aluno("Maria Helena da Silva","maria.silva@faex.edu.br");
         alunoEditado.setId(2L);
@@ -53,6 +54,8 @@ public class Main {
             System.out.println("-------------------------");
         }
 
+=======
+>>>>>>> 4c093b153a6efc575d211b106390c107ba535047
         alunoController.excluir(2L);
         for (Aluno alunoLista  : alunoController.listar()) {
 
@@ -61,5 +64,9 @@ public class Main {
             System.out.println("E-mail: " + alunoLista.getEmail());
             System.out.println("-------------------------");
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 4c093b153a6efc575d211b106390c107ba535047
     }
 }

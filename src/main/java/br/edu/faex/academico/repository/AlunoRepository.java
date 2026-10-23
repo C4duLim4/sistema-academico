@@ -24,9 +24,14 @@ public class AlunoRepository {
         }
         return null;
     }
+<<<<<<< HEAD
 
     public void excluir(Long id){
         for (Aluno aluno : alunos){
+=======
+    public void excluir(Long id){
+        for (Aluno aluno: alunos){
+>>>>>>> 4c093b153a6efc575d211b106390c107ba535047
             if(aluno.getId().equals(id)){
                 alunos.remove(aluno);
                 return;
@@ -34,6 +39,7 @@ public class AlunoRepository {
         }
     }
 
+<<<<<<< HEAD
     public void atualizar(Aluno alunoEditado){
         for (Aluno aluno : alunos){
             if(aluno.getId().equals(alunoEditado.getId())){
@@ -45,5 +51,7 @@ public class AlunoRepository {
     }
 
 
+=======
+>>>>>>> 4c093b153a6efc575d211b106390c107ba535047
 
 }
