@@ -12,27 +12,24 @@ public class AlunoController {
         this.service = service;
     }
 
-    public void cadastrar(Aluno aluno){
+    public void cadastrar(Aluno aluno) {
         this.service.cadastrar(aluno);
     }
-    public List<Aluno> listar(){
+
+    public List<Aluno> listar() {
         return this.service.listar();
     }
 
-    public Aluno buscarPorId(long id){
+    public Aluno buscarPorId(long id) {
         return service.buscarPorId(id);
     }
 
-    public void excluir(Long id){
+    public void excluir(Long id) {
         service.excluir(id);
     }
 
-<<<<<<< HEAD
-    public void atualizar(Aluno alunoEditado){
+
+    public void atualizar(Aluno alunoEditado) {
         service.atualizar(alunoEditado);
     }
-
-
-=======
->>>>>>> 4c093b153a6efc575d211b106390c107ba535047
 }
