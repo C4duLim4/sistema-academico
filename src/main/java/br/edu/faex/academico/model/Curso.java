@@ -13,6 +13,13 @@ public class Curso {
         this.modalidade = modalidade;
     }
 
+<<<<<<< HEAD
+=======
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+>>>>>>> master
     public Long getId() {
         return id;
     }

@@ -39,7 +39,11 @@ public class AlunoService {
         proximoId++;
 
         this.repository.salvar(aluno);
+<<<<<<< HEAD
         System.out.println("Aluno cadastrado com sucesso.");
+=======
+
+>>>>>>> master
     }
 
     public List<Aluno> listar(){
@@ -57,7 +61,10 @@ public class AlunoService {
     public void excluir(Long id){
         Aluno aluno = repository.buscarPorId(id);
         if(aluno == null){
+<<<<<<< HEAD
 
+=======
+>>>>>>> master
             System.out.println("Aluno não encontrado.");
             return;
         }
@@ -97,4 +104,8 @@ public class AlunoService {
     }
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 }
